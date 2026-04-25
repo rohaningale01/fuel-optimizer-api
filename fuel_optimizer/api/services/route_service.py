@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjRjMGFhOGY3NzViODQxNDliMjc1Y2MwNTBlMjY4ZDBhIiwiaCI6Im11cm11cjY0In0="
+API_KEY = "YOUR_API_KEY"
 
 def get_route(start, end):
     url = "https://api.openrouteservice.org/v2/directions/driving-car"
